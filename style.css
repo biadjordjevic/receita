@@ -1,0 +1,58 @@
+
+/* definindo a cor de fundo e a fonte a ser usada */
+body{
+    background-color: rgb(238, 235, 235);
+    width: 100%;
+    height: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* ajustando a cor do texto de "boas vindas" */
+.inicio{
+    color: gray;
+}
+/* ajustando o tamanho da imagem */
+img {
+    width: 35%;
+    height: auto;
+    
+       
+  }
+/* delimitando a margem da página  */
+  body{
+   
+    margin: 5%; 
+    padding: 1%;
+    border: 0; 
+    
+  }
+/* centraliza os itens listados e adiciona uma borda ao redor */
+  ol{
+    width: 60%;
+    border: 4px solid #f0d7ac;
+  border-radius: 30px;
+  text-align: justify;
+  align-items: right;
+  justify-content: right;
+  margin: auto;
+  width: 35%;
+    
+  }
+/* colorindo e sombreando o título da página */
+.bolo{
+    text-shadow: 3px 3px  #000000;
+   
+     font-weight: bold;
+    color:#da9008
+}
+/* colorindo as os textos tipo h2 sobre o modo de preparo */
+.h2{
+    color: gray
+    
+}
+/* centraliza todo o conteúdo da página */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%
+}
+
